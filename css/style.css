@@ -1,0 +1,127 @@
+#main{
+	margin-top:54px;
+}
+header{
+	background-color:#2e2e2e;
+	color:#fff;
+	margin:0 auto;
+	border-top:solid 5px #7f1933;
+	padding:0 0 0 0;
+}
+#header > h1{
+	position:relative;
+	margin-top:;
+}
+#img-div{
+	width:100%;
+}
+#img-caption{
+	padding:20px;
+}
+
+#image{
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+#tribute-info div{
+	padding:2%;
+	
+}
+#tribute-info > div:nth-child(even){
+	background-color:#7f1933;
+	color:#fff;
+}
+#tribute-info > div:nth-child(even) img{
+	border:solid 5px #fff;
+	max-width:100%;
+}
+
+#tribute-info > div:nth-child(odd) img{
+	border:solid 5px #E6E6E6;
+	max-width:100%;
+}
+#tribute-info > p{
+	width:60%;
+}
+
+#tribute-info >h3{
+	padding:30px;
+}
+#tribute-link {
+	text-align:right;
+}
+
+
+@media (max-width: 768px) { 
+	.small-centered{
+		text-align:center;
+	}
+	.lead{
+		font-size:1em;
+	}
+	#tribute-info  h3, h2{
+		font-size:1.5em;
+		
+	}
+	#img-caption{
+		text-align:center;
+		font-size:.8em;
+	}
+	p{
+		font-size:.8em;
+		text-align:justify;
+	}
+
+}
+#home{
+	padding:1px;
+}
+#earlyLife{	
+	color:#000;
+	text-shadow:1px 1px 10px #000000;
+  background-image:url('http://rober-web.ihostfull.com/img/taj-mahal-1209004_1920.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+}
+#southAfrica p, #southAfrica h2{
+	color:#000;
+}
+#southAfrica{
+  background-image:url('http://rober-web.ihostfull.com/img/reiter-3372907_1920.jpg');
+  background-size:cover; 
+}
+#assassination p, #legacy p{
+	text-align:justify;
+}
+.div-separator{
+	background-color: #7f1933;
+	height:6rem;
+}
+
+footer{
+	padding:4%;;
+	background-color:#2e2e2e;
+	color:#fff;
+	
+}
+footer div:nth-child(1){
+	padding-bottom:3%;
+}
+footer div:nth-child(2){
+	padding:3% 1% 0 1%;
+	width:100%;
+	border-top:solid #585858 1px;
+	font-size:.8em;
+}
+#top{
+  padding:20px; 
+  background-color:rgba(255,000,000,0.5); 
+  color:white;
+  position:fixed;
+  right:20px;
+  bottom:20px;
+  cursor:pointer;
+  border-radius:7px;
+}
